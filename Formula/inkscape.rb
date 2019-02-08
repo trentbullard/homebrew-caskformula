@@ -28,7 +28,7 @@ class Inkscape < Formula
   depends_on "gtkmm3"
   depends_on "gdl"
 
-  needs :cxx11
+  # needs :cxx11
 
   if MacOS.version < :mavericks
     fails_with :clang do
